@@ -34,7 +34,7 @@ function Header() {
           </li>
         </ul>
 
-        <div className="hamburger md:hidden" onClick={handleToggle}>
+        <div className="hamburger md:hidden cursor-pointer" onClick={handleToggle}>
           <i
             className={
               toggleMenu
