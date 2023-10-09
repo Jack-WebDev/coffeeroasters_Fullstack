@@ -1,19 +1,19 @@
-import Header from "./components/Header"
-import {ToastContainer} from 'react-toastify'
-import {Outlet} from 'react-router-dom'
+import Header from "./components/Header";
+import { ToastContainer } from "react-toastify";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <>
-        <Header/>
+        <Header />
         <ToastContainer />
         <div>
           <Outlet />
         </div>
       </>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

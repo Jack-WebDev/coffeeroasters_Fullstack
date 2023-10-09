@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { useLogoutMutation } from "../slices/userApiSlice";
 import { logout } from "../slices/authSlice";
+import './Header.css'
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -28,15 +29,15 @@ function Header() {
   }
 
   return (
-    <div className="bg-gray-700 relative">
+    <div className="relative">
       <nav className="flex justify-between px-[2rem] py-[1rem]">
-        <Link className="text-white"><img src="" alt="" /></Link>
+        <Link className="text-white"><img src="src/assets/shared/desktop/logo.svg" alt="" /></Link>
 
         <ul
           className={
             toggleMenu
-              ? "mobile grid gap-[1.5rem] text-center text-white bg-red-700 translate-y-[15%] -translate-x-[2rem] py-[2rem] w-full md:hidden absolute"
-              : "mobile grid gap-[1.5rem] text-center text-white bg-red-700 -translate-y-[150%] -translate-x-[2rem] py-[2rem] w-full md:hidden absolute"
+              ? "mobile grid gap-[1.5rem] text-center bg-gray-300 translate-y-[15%] -translate-x-[.5rem] py-[2rem] w-[90%] mx-auto md:hidden absolute"
+              : "mobile grid gap-[1.5rem] text-center bg-gray-300 -translate-y-[150%] -translate-x-[.5rem] py-[2rem] w-[90%] mx-auto md:hidden absolute"
           }
         >
           {userInfo ? (
@@ -76,13 +77,13 @@ function Header() {
           <i
             className={
               toggleMenu
-                ? "fa-solid fa-xmark text-white"
-                : "fa-solid fa-bars text-white"
+                ? "fa-solid fa-xmark"
+                : "fa-solid fa-bars"
             }
           ></i>
         </div>
 
-        <ul className="desktop hidden md:flex gap-[1.5rem] text-white">
+        <ul className="desktop hidden md:flex gap-[1.5rem]">
           {userInfo ? (
             <>
               <li>

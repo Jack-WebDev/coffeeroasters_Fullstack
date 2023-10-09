@@ -62,7 +62,7 @@ function LoginPage() {
 
         <button disabled={isLoading}type='submit'>Sign In</button>
 
-        <p>New Customer? <Link to='/register'>Register</Link></p>
+        <p className='text-center'>New Customer? <Link to='/register'>Register</Link></p>
       </form>
     </div>
   )

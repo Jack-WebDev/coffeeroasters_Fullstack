@@ -1,3 +1,40 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+
+
+form {
+    display: grid;
+    gap: 1.5rem;
+    border: 1px solid red;
+    width: min(80%, 600px);
+    margin-inline: auto;
+    text-align: center;
+}
+
+form .form__control {
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+}
+
+.form__control input {
+    padding-inline-start: 1rem;
+    padding-block: 5px;
+    outline: 1px solid red;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

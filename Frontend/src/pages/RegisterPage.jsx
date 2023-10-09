@@ -92,7 +92,7 @@ function RegisterPage() {
         {isLoading}
       </form>
 
-      <p>Already have an account? <Link to={`/login`}>Login</Link></p>
+      <p className='text-center'>Already have an account? <Link to={`/login`}>Login</Link></p>
     </div>
   )
 }
