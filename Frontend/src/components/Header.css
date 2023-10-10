@@ -1,28 +1,25 @@
-
 :root {
-    --clr-cyan-900: #0e8784;
-    --clr-cyan-100: #65d2cf;
-    --clr-grey-900: #2c343e;
-    --clr-grey-400: #848990;
-    --clr-orange-100: #fdd6ba;
-    --clr-cream-400: #f4f2eb;
-    --clr-cream-100: #fefcf6;
-    --ff-france: "Fraunces", serif;
-    --ff-barlow: "Barlow", serif;
+  --clr-cyan-900: #0e8784;
+  --clr-cyan-100: #65d2cf;
+  --clr-grey-900: #2c343e;
+  --clr-grey-400: #848990;
+  --clr-orange-100: #fdd6ba;
+  --clr-cream-400: #f4f2eb;
+  --clr-cream-100: #fefcf6;
+  --ff-france: "Fraunces", serif;
+  --ff-barlow: "Barlow", serif;
 }
-
 
 .main__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 1.5rem;
+  gap: 1rem;
   color: #fff;
-  background-image: url(../assets/home/mobile/image-hero-coffeepress.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding-block: 2rem;
+  /* padding-block: 2rem; */
   margin-inline: auto;
   border-radius: 10px;
   aspect-ratio: 2.2;
@@ -31,7 +28,7 @@
 }
 
 .main__container:hover {
-  background-size: 120%;
+  background-size: 105%;
 }
 
 .main__container h1 {

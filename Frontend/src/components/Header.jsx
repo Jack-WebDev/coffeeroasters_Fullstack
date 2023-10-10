@@ -30,8 +30,8 @@ function Header() {
 
   return (
     <div className="relative">
-      <nav className="flex justify-between px-[2rem] py-[1rem]">
-        <Link className="text-white"><img src="src/assets/shared/desktop/logo.svg" alt="" /></Link>
+      <nav className="flex justify-between px-[1rem] py-[1rem] md:px-[2rem]">
+        <Link className="text-white"><img className="w-[70%]" src="src/assets/shared/desktop/logo.svg" alt="" /></Link>
 
         <ul
           className={
