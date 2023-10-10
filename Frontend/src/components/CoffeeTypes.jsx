@@ -2,10 +2,10 @@
 function CoffeeTypes({img, title, text}) {
   return (
     <div>
-        <img src={img} alt="" />
+        <img className="mx-auto" src={img} alt="" />
 
         <div>
-            <h2>{title}</h2>
+            <h2 className="font-[600]">{title}</h2>
             <p>{text}</p>
         </div>
     </div>

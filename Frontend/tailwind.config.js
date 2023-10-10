@@ -3,8 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      'header': ["Barlow", "sans-serif"],
-      'text': ["Fraunces", "serif"],
+      'text': ["Barlow", "sans-serif"],
+      'header': ["Fraunces", "serif"],
     },
     extend: {},
   },
