@@ -30,7 +30,7 @@ function Header() {
 
   return (
     <div className="relative">
-      <nav className="flex justify-between px-[1rem] py-[1rem] md:px-[2rem]">
+      <nav className="navbar flex justify-between px-[1rem] py-[1rem] md:px-[2rem]">
         <Link className="text-white"><img className="w-[70%]" src="src/assets/shared/desktop/logo.svg" alt="" /></Link>
 
         <ul

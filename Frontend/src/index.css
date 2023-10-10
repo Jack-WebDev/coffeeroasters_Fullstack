@@ -9,6 +9,18 @@
     font-family: 'Fraunces', serif;
 }
 
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: min(90%,1400px);
+    margin-inline: auto;
+    
+}
+
+
 
 form {
     display: grid;
