@@ -19,19 +19,73 @@ const data = [
   },
   {
     id: 2,
-    question: "How do you ?",
+    question: "What type of coffee?",
     options: {
       type1: {
-        title: "Capsus",
-        text: "Compatible wims and similar brewers."
+        title: "Single Origin",
+        text: "Distinct, high quality coffee from a specific family-owned farm."
       },
       type2: {
-        title: "Filt",
-        text: "For pour ex, and V60."
+        title: "Decaf",
+        text: "Just like regular coffee, except the caffeine has been removed."
       },
       type3: {
-        title: "Espre",
-        text: "Dense andense, flavorful experience."
+        title: "Blended",
+        text: "Combination of two or three dark roasted beans of organic coffees."
+      },
+    }
+  },
+  {
+    id: 3,
+    question: "How much would you like?",
+    options: {
+      type1: {
+        title: "250g",
+        text: "Perfect for the solo drinker. Yields about 12 delicious cups."
+      },
+      type2: {
+        title: "500g",
+        text: "Perfect option for a couple. Yields about 40 delectable cups."
+      },
+      type3: {
+        title: "100g",
+        text: "Perfect for offices and events. Yields about 90 delightful cups."
+      },
+    }
+  },
+  {
+    id: 4,
+    question: "Want us to grind them?",
+    options: {
+      type1: {
+        title: "Wholebean",
+        text: "Best choice if you cherish the full sensory experience."
+      },
+      type2: {
+        title: "Cafetiere",
+        text: "Course ground beans specially suited for french press coffee"
+      },
+      type3: {
+        title: "100g",
+        text: "Perfect for offices and events. Yields about 90 delightful cups."
+      },
+    }
+  },
+  {
+    id: 5,
+    question: "How often should we deliver?",
+    options: {
+      type1: {
+        title: "Every week",
+        text: "R0.00 per shipment. Includes free first-class shipping."
+      },
+      type2: {
+        title: "500g",
+        text: "R0.00 per shipment. Includes free first-class shipping."
+      },
+      type3: {
+        title: "100g",
+        text: "R0.00 per shipment. Includes free first-class shipping."
       },
     }
   },

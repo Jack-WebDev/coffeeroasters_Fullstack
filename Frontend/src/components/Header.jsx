@@ -36,7 +36,7 @@ function Header() {
         <ul
           className={
             toggleMenu
-              ? "mobile grid gap-[1.5rem] text-center bg-gray-300 translate-y-[15%] -translate-x-[.5rem] py-[2rem] w-[90%] mx-auto md:hidden absolute"
+              ? "mobile grid gap-[1.5rem] text-center bg-gray-300 translate-y-[70%] translate-x-[.5rem] py-[2rem] w-[90%] mx-auto md:hidden absolute"
               : "mobile grid gap-[1.5rem] text-center bg-gray-300 -translate-y-[150%] -translate-x-[.5rem] py-[2rem] w-[90%] mx-auto md:hidden absolute"
           }
         >

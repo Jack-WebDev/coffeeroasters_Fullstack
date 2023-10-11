@@ -10,7 +10,7 @@ function Faq() {
   };
 
   return (
-    <div className="bg-gray-700 grid gap-[5rem]">
+    <div className="bg-gray-700 grid gap-[5rem] text-center">
       <p>FAQ</p>
       {data.map((q) => (
         <div key={q.id}>

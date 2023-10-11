@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import Hero from "../components/Hero";
 import "./CreatePlan.css";
 import Faq from "../components/Faq";
+import OrderSummary from "../components/OrderSummary";
 
 function CreatePlanPage() {
   return (
@@ -15,7 +16,6 @@ function CreatePlanPage() {
             "Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door."
           }
         />
-        <Faq/>
       </div>
 
       <section className="grid gap-[1.5rem] bg-[#2c343e] text-white text-center w-[90%] mx-auto p-[2rem] rounded-lg my-[5rem]">
@@ -33,9 +33,13 @@ function CreatePlanPage() {
         <Button>Create Your Plan</Button>
       </section>
 
-      {/* <section>
+      <section className="grid place-items-center text-white">
         <Faq/>
-      </section> */}
+      </section>
+
+      <section>
+        <OrderSummary />
+      </section>
     </div>
   );
 }

@@ -42,7 +42,7 @@
   font-family: var(--ff-barlow);
   width: min(90%, 600px);
 }
-.main__container button {
+/* .main__container a {
   padding: 0.5em 1em;
   border: none;
   border-radius: 5px;
@@ -54,7 +54,7 @@
   cursor: pointer;
   transition: 300ms ease-in;
 }
-.main__container button:hover {
+.main__container a:hover {
   background-color: var(--clr-cyan-100);
   color: var(--clr-grey-900);
-}
+} */
