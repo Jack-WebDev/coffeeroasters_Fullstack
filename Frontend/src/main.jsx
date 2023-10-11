@@ -14,6 +14,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import CreatePlanPage from "./pages/CreatePlanPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,9 +23,7 @@ const router = createBrowserRouter(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/about" element={<AboutPage />} />
-      {/* <Route path='' element={<PrivateRoute />}>
-      <Route path='/profile' element={<ProfileScreen />} />
-    </Route> */}
+      <Route path="/createPlan" element={<CreatePlanPage/>}/>
     </Route>
   )
 );

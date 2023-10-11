@@ -48,6 +48,9 @@ function Header() {
               <li>
                 <Link to="/about">About Us</Link>
               </li>
+              <li>
+                <Link to="/createPlan">Create Your Plan</Link>
+              </li>
               <div onClick={handleLogOut}>
                 <Link to="/logout">Log Out</Link>
               </div>
@@ -91,6 +94,9 @@ function Header() {
               </li>
               <li>
                 <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/createPlan">Create Your Plan</Link>
               </li>
               <div onClick={handleLogOut}>
                 <Link to="/logout">Log Out</Link>
